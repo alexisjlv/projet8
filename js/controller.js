@@ -104,6 +104,7 @@
 		self.model.create(title, function () {
 			self.view.render('clearNewTodo');
 			self._filter(true);
+
 		});
 	};
 
